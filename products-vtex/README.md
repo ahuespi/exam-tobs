@@ -14,8 +14,8 @@
 - Javascript (Angular 2)
 
 ## Resolucion
-**¿Porque usé Angular?** - Porque es una de las tecnologias con la que mas experiencia tengo.
-**¿Que se hizo?** - En base a la informacion que se recibe de la api dada para el ejercicio, se generó una grid de productos responsive, el cual emula una busqueda de "Notebooks". 
+- **¿Porque usé Angular?** - Porque es una de las tecnologias con la que mas experiencia tengo.
+- **¿Que se hizo?** - En base a la informacion que se recibe de la api dada para el ejercicio, se generó una grid de productos responsive, el cual emula una busqueda de "Notebooks". 
 Tomé como ejemplo de maquetacion la pagina de Mercado libre el cual tiene en grid con tarjetas de productos con la informacion de la marca, nombre, precio.
 
 **¿Como funciona la app?**   
