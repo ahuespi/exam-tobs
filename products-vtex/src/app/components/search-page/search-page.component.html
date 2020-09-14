@@ -1,0 +1,17 @@
+<div class="container">
+    <a class="btn productDetail__container--back" [routerLink]="['/products']" role="button">Volver al listado</a>
+    <h4>Resultado de busqueda: </h4>
+    <div class="card-deck">
+        <ul class="product__container">
+            <li class="card product__container--card" *ngFor='let product of products'>
+                <img src={{product.items[0].images[0].imageUrl}} class="card-img-top" alt="{{product.metaTagDescription}}}">
+                <div class="card-body" >
+                <small>{{product.brand}}</small>
+                <h5 class="card-title">{{product.productName}}</h5>
+                <p class="product__body--price">${{product.items[0].sellers[0].commertialOffer.Price}}</p>
+                <a class="btn btn-primary" [routerLink]="['/product', product.productId]">Ver más</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

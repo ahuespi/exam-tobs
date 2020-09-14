@@ -1,0 +1,107 @@
+.container {
+    background-color: #fff;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+.productDetail__container--back {
+    margin-top: 10px;
+}
+
+.product__body--price {
+    font-weight: 500;
+    font-size: 22px;
+}
+.card-deck {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.feature {
+    font-size: 12px;
+}
+.feature h5 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+.feature__title {
+    font-weight: bold;
+}
+.card-body__buttons .btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+.card-body__selled {
+    font-size: 10px;
+    color: #ccc;
+}
+.card-body--price {
+    font-weight: 500;
+    font-size: 20px;
+}
+.card-body__infoPayment {
+    font-size: 12px;
+}
+.card-body__infoPayment p {
+    margin: 0;
+}
+.card-body__delivery--truck {
+    color: green;
+}
+.card-body__infoPayment--creditCard {
+    margin-bottom: 10px;
+}
+.card-body__infoPayment--creditCard-info,
+.card-body__delivery--send-info {
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 17px!important;
+}
+.card-body__infoPayment a,
+.card-body__delivery a {
+    text-decoration: none;
+    font-size: 11px;
+    margin: 0 17px!important;
+}
+@media (min-width: 568px) {
+    .productDetail__container--carousel {
+        margin: 0 auto;
+        width: 70%;
+        display: inline-block;
+    }
+    .w-100 {
+        width: 71%!important;
+        margin: 0 auto!important;
+    }
+    .container {
+        margin-top: 20px;
+        max-width: 1140px;
+    }
+    .card-body {
+        max-height: 550px;
+        width: 30%;
+        border-radius: 10px;
+        border: 1px solid #efefef;
+        margin-bottom: 10px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+    }
+    .card-body__infoPayment {
+        margin: 47px 0px;
+    }
+    .card-deck {
+        margin: 0;
+    }
+    .card-body__card-title, .card-body--price {
+        margin: 15px 0;
+    }
+    .card-body__buttons .btn {
+        display: inline-block;
+        width: 100%;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 7px;
+    }
+
+}

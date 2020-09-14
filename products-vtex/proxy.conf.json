@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target": "https://fravega.myvtex.com/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

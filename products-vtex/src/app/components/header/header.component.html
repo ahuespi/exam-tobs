@@ -1,0 +1,6 @@
+<nav class="navbar navbar-light">
+    <form class="form-inline header__form" (keydown.enter)="$event.preventDefault()">
+      <input class="form-control mr-sm-2" type="text" placeholder="Buscar por marca" (keyup.enter)="searchProduct(searchBox.value)" #searchBox>
+      <button (click)="searchProduct(searchBox.value)" class="btn" type="button"><i class="fas fa-search"></i></button>
+    </form>
+</nav>
